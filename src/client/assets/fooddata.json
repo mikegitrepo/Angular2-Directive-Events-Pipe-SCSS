@@ -1,0 +1,19 @@
+[
+	[{"resid":2},{ "name":"Rajma Rice"},{"imagename":"cuatro"},{"price":50}] ,
+    [{"resid":2},{ "name":"Dog rice"},{"imagename":"cuatro"},{"price":56}] ,
+	[{"resid":2},{ "name":"Shorba"},{"imagename":"cuatro"},{"price":55}] ,
+	[{"resid":2},{ "name":"Mutton Rogan Jose"},{"imagename":"cuatro"},{"price":53}] ,
+	[{"resid":2},{ "name":"Pulao"},{"imagename":"cuatro"},{"price":60}] ,
+	[{"resid":2},{ "name":"Chicken Tikka"},{"imagename":"cuatro"},{"price":70}] ,
+	[{"resid":2},{ "name":"Chola Bhatura"},{"imagename":"cuatro"},{"price":80}] ,
+	[{"resid":2},{ "name":"Aaloo Dum"},{"imagename":"cuatro"},{"price":90}] ,
+[{"resid":3},{ "name":"King Fish"},{"imagename":"cuatro"},{"price":10}] ,
+[{"resid":3},{ "name":"Pomflet"},{"imagename":"cuatro"},{"price":20}] ,
+[{"resid":3},{ "name":"juice"},{"imagename":"cuatro"},{"price":50}] ,
+[{"resid":4},{ "name":"Chicken Chilli"},{"imagename":"cuatro"},{"price":50}] ,
+[{"resid":4},{ "name":"Fish Chilli"},{"imagename":"cuatro"},{"price":60}] ,
+[{"resid":4},{ "name":"Dukkar fry"},{"imagename":"cuatro"},{"price":70}] ,
+[{"resid":5},{ "name":"Veg Cafrial"},{"imagename":"cuatro"},{"price":50}] ,
+[{"resid":5},{ "name":"Chicken Cafrial"},{"imagename":"cuatro"},{"price":60}] ,
+[{"resid":5},{ "name":"Prawns Rawa fly"},{"imagename":"cuatro"},{"price":70}] 
+]

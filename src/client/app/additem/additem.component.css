@@ -1,0 +1,28 @@
+:host {
+  display: block;
+  padding: 0 16px;
+}
+
+input {
+  width: 250px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0 0 0 8px;
+}
+$pad : 2em;
+$color-primary : rgb(40,40,40);
+$color-secondary : rgb(40,170,220);
+
+body {
+  background-color: $color-primary;
+}
+
+h1 {
+  color: $color-secondary;
+}
+
+.containermike {
+  padding: $pad;
+}

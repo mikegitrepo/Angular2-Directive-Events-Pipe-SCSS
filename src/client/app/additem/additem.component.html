@@ -1,0 +1,18 @@
+<p>id of rest:{{id}}</p>
+
+<form (submit)="addName()">
+  <input [(ngModel)]="newName" name="newName" placeholder="Awesome Computer Scientist">
+  <button type="submit">Add</button>
+</form>
+
+<div>
+	<div style="display: flex;"  *ngFor="let name of names"><div><img width="50" height="50" src="../images/{{name[2].imagename}}.jpg"></div><div>{{name[1].name}}</div><div>Rs {{name[3].price}}</div>
+	<div>Qty<select [ngModel]="selectedItem" #helloitem (ngModelChange)="onQtyChange($event , name[3].price)">
+		<option *ngFor="let qnum of qtyarr" value="{{qnum}}">
+			{{qnum}}
+		</option>
+	</select></div><div >Total:Rs{{helloitem.value*name[3].price}}</div>  
+	</div>
+	<div>all total:{{grandtotal}}</div>
+</div>
+

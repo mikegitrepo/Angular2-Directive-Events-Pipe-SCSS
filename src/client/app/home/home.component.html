@@ -1,0 +1,26 @@
+<child-selector  (notify)='onNotify($event)' [title1]='childTitle' [dataarr]='dataarr'></child-selector>
+<div>  
+  <p>
+  0
+    <input type="text"  #sliderValue  (keyup)="0" />
+  100
+  </p>
+  <span>{{ sliderValue.value }}</span>
+    <ul>
+     
+    </ul>
+</div>  
+
+
+
+<ul>
+  <li *ngFor="let name of names  | movieFilter:sliderValue.value">
+  	<a [routerLink]="['/additem', name[0].id ]" ><img src="../images/cuatro.jpg" />{{name[1].name}}</a></li>
+</ul>
+<br />
+<p>Howdy! Here's a list of awesome computer scientists. Do you know any others? Add to the list yourself.</p>
+
+<form (submit)="addName()">
+  <input [(ngModel)]="newName" name="newName" placeholder="Awesome Computer Scientist">
+  <button type="submit">Add</button>
+</form>
